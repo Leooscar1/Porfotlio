@@ -1,0 +1,36 @@
+.nav > * {
+    padding: 10px;
+}
+.text-start {
+    font-family: 'Sono', sans-serif;
+    font-size: 25px;
+}
+.lead {
+    font-family: 'Sono', sans-serif;
+}
+.display-4{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Sono', sans-serif;
+    font-size:5rem;
+}
+.skills > *{
+    padding: 20px;
+    justify-content: space-around;
+}
+@media (min-width:278px) and (max-width:2440px){
+  body{
+    display: inline-flex;
+    flex-direction: column;
+    background-color: black;
+  }
+}
+.skills > h1{
+    color: white;
+}
+.card-cover {
+    background-size:700px;
+    width: 100%;
+    height: auto ;
+    /* background-repeat: no-repeat; */
+    background-position: center;
+}
